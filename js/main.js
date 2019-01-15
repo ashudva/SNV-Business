@@ -109,7 +109,83 @@ $(window).on('load', function() {
 		    moreText.style.display = "inline";
 		  }
 		}
-		
+
+
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+
+
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.maxHeight){
+		      content.style.maxHeight = null;
+		    } else {
+		      content.style.maxHeight = content.scrollHeight + "px";
+		    }
+		  });
+		}
+
 		/*------------------
 		 Read More JS
 		--------------------*/
+
+
+    /*-----------------
+	    Goto Top Button
+    	-----------------*/
+	 $(window).scroll(function() {
+	     var height = $(window).scrollTop();
+	     if (height > 300) {
+	         $('#topbtn').fadeIn();
+	     } else {
+	         $('#topbtn').fadeOut();
+	     }
+	 });
+	 $(document).ready(function() {
+	     $("#topbtn").click(function(event) {
+	         event.preventDefault();
+	         $("html, body").animate({ scrollTop: 0 }, "slow");
+	         return false;
+	     });
+
+	 });
+    /*-----------------
+      Goto Top Button
+      -----------------*/
+
+
+    /*--------------
+      Goto Services
+	    --------------*/
+	 $(document).ready(function() {
+	     $(".goto").click(function(event) {
+	         event.preventDefault();
+					 $('html, body').animate({
+                   scrollTop: $("#process-section").offset().top
+								   }, "slow");
+
+
+	         return false;
+	     });
+
+	 });
+	     /*--------------
+	       Goto Services
+	 	    ---------------*/
