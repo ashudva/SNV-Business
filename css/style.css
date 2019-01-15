@@ -55,7 +55,7 @@ h6 {
 
 p {
 	font-size: 15.7px;
-	color: #75849a;
+	color: #495057;
 	line-height: 1.6;
 }
 
@@ -83,7 +83,7 @@ ol {
 }
 
 .main-menu > ul {
-	padding-right: 10px;
+	padding: 0px;
 	margin: 0px;
 }
 
@@ -2038,11 +2038,11 @@ ol {
   padding: 20px 18px 20px 18px;
   display: none;
   overflow: hidden;
-	max-height: 0;
+  max-height: 0;
   background-color: white;
-	transition: max-height 2s ease-out;
-	margin-left: 10%;
-	margin-right: 10%;
+  transition: max-height 2s ease-out;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .content #compliance {
@@ -2133,7 +2133,7 @@ a.goto span::after {
  }
 
  #topbtn {
-	 right: 20px;
+	 right: 30px;
 	}
 
  .info {
@@ -2161,4 +2161,9 @@ a.goto span::after {
 	 color: #20509e;
  }
 
+.content {
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 30px;
+}
 }
