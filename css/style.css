@@ -83,7 +83,7 @@ ol {
 }
 
 .main-menu > ul {
-	padding: 0px;
+	padding-right: 10px;
 	margin: 0px;
 }
 
@@ -2133,7 +2133,7 @@ a.goto span::after {
  }
 
  #topbtn {
-	 right: 150px;
+	 right: 20px;
 	}
 
  .info {
@@ -2155,6 +2155,10 @@ a.goto span::after {
 
  .collapsible {
 	 margin-left: -90px;
+ }
+
+ .dropdown-content a{
+	 color: #20509e;
  }
 
 }
