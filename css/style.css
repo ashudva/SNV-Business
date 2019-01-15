@@ -116,7 +116,7 @@ ol {
 
 .section-title h2 {
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .section-title p {
@@ -386,6 +386,7 @@ ol {
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-section .laptop-image {
@@ -982,10 +983,6 @@ ol {
 
 .social .google {
 	background: #f03b3b;
-}
-
-.social .instagram {
-	background: #fb3958;
 }
 
 .social .twitter {
@@ -1626,6 +1623,7 @@ ol {
 	#topbtn {
 	    background-color: #DDF;
 	    color: #000;
+	    box-shadow: inset 0px 0px 8px 6px rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 /*------------------
@@ -2101,6 +2099,17 @@ a.goto span::after {
   border-color: #848979 transparent transparent transparent;
 }
 
+.process-icon > img {
+	width:70px;
+}
+
+.page-info-section {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.site-btn {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
 @media screen and (max-width: 760px) {
 
     .laptop-image {
