@@ -101,11 +101,11 @@ $(window).on('load', function() {
 
 		  if (dots.style.display === "none") {
 		    dots.style.display = "inline";
-		    btnText.innerHTML = "Read more";
+		    btnText.innerHTML = "Read More";
 		    moreText.style.display = "none";
 		  } else {
 		    dots.style.display = "none";
-		    btnText.innerHTML = "Read less";
+		    btnText.innerHTML = "Read Less";
 		    moreText.style.display = "inline";
 		  }
 		}
@@ -113,6 +113,7 @@ $(window).on('load', function() {
 
 		var coll = document.getElementsByClassName("collapsible");
 		var i;
+		var btnText = document.getElementById("btn");
 
 		for (i = 0; i < coll.length; i++) {
 			coll[i].addEventListener("click", function() {
@@ -120,8 +121,10 @@ $(window).on('load', function() {
 				var content = this.nextElementSibling;
 				if (content.style.display === "block") {
 					content.style.display = "none";
+					btnText.innerHTML = "Read More";
 				} else {
 					content.style.display = "block";
+					btnText.innerHTML = "Read Less";
 				}
 			});
 		}
