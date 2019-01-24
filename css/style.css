@@ -1574,6 +1574,12 @@ ol {
 .contact p {
     color: #676a6c!important!;
     font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#contact-p {
+	font-size: 16px;
+	color: #6c757db5;
 }
 
 span.navy {
