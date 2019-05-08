@@ -314,7 +314,7 @@ ol {
 }
 
 
-#more ul, #real-estate {
+#more ul {
 	padding: 0 0 0 10px;
 	margin: 0 0 0 10px;
 }
@@ -1643,7 +1643,7 @@ a :hover {
 }
 
 .ftr {
-	padding-left: 40px;
+	padding-left: 33px;
 }
 
 /*-------------------------
