@@ -2135,8 +2135,8 @@ a :hover {
 	-webkit-box-shadow: 5px 5px 12px -1px rgba(145,140,145,0.62);
   -moz-box-shadow: 5px 5px 12px -1px rgba(145,140,145,0.62);
   box-shadow: 5px 5px 12px -1px rgba(145,140,145,0.62);
-  margin: 30px;
-	padding: 15px;
+  margin: auto;
+	margin-bottom: 32.50px;
 }
 
 .bt1 {
@@ -2251,12 +2251,9 @@ a.goto span::after {
 	 padding: 5px;
  }
 
-.downloads {
-	margin-left: 55px;
-}
-
 .frame {
 	width: 300px;
+	display: block;
 }
 
 .file-frame {
