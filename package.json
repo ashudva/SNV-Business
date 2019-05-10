@@ -1,0 +1,26 @@
+{
+  "name": "SNV",
+  "version": "1.0.0",
+  "description": "**SNV Business Solutions**",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashudva/snv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashudva/snv/issues"
+  },
+  "homepage": "https://github.com/ashudva/snv#readme",
+  "dependencies": {
+    "sal.js": "^0.5.0"
+  }
+}
