@@ -327,6 +327,66 @@ ol {
 	Header section
 -----------------------*/
 
+
+/*--------------------
+  Dropdown Button
+	--------------------*/
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border: 0px solid #000000;
+}
+
+/* Links inside the dropdown */
+#dropdown-menu .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+		font-family: "Futura", sans-serif;
+    text-decoration: none;
+    display: block;
+		border-radius: 10px 10px 10px 10px;
+		-moz-border-radius: 10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border: 0px solid #000000;
+		margin-right: 0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent; opacity: 0.5;}
+
+/*--------------------
+  Dropdown Button
+	--------------------*/
+
+
 .logo-img {
 	width: 175px;
 	height: 70px;
@@ -1444,65 +1504,6 @@ ol {
 }
 
 
-
-/*--------------------
-  Added Features
-	-------------------- */
-
-/*--------------------
-  Dropdown Button
-	--------------------*/
-.dropbtn {
-    background-color: transparent;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 200px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-		border-radius: 10px 10px 10px 10px;
-		-moz-border-radius: 10px 10px 10px 10px;
-		-webkit-border-radius: 10px 10px 10px 10px;
-		border: 0px solid #000000;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-		font-family: "Futura", sans-serif;
-    text-decoration: none;
-    display: block;
-		border-radius: 10px 10px 10px 10px;
-		-moz-border-radius: 10px 10px 10px 10px;
-		-webkit-border-radius: 10px 10px 10px 10px;
-		border: 0px solid #000000;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: transparent; opacity: 0.5;}
-
-
 /*--------------------
   Go To Top Button
 	--------------------*/
@@ -1514,11 +1515,6 @@ ol {
 	    z-index: 999;
 	    display: none;
 	    cursor: pointer;
-	    -moz-transform: rotate(270deg);
-	    -webkit-transform: rotate(270deg);
-	    -o-transform: rotate(270deg);
-	    -ms-transform: rotate(270deg);
-	    transform: rotate(270deg);
 	    position: fixed;
 	    bottom: 50px;
 	    right: 30px;
