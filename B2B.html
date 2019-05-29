@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
 
 
 	<!--[if lt IE 9]>
@@ -71,8 +72,8 @@
 	<!-- Page info section -->
 	<section class="page-info-section">
 		<div class="info">
-			<h2>B2B <span>Solutions</span></h2>
-			<div class="site-beradcamb">
+			<h2 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">B2B <span>Solutions</span></h2>
+			<div class="site-beradcamb" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
 				<a href="index.html">Home</a>
 				<span><i class="fa fa-angle-right"></i>B2B Solutions</span>
 			</div>
@@ -88,12 +89,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-6 about-text">
-					<h2>B2B Solutions</h2>
-					<h3>Content Unavailable</h3>
+					<h2 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">B2B Solutions</h2>
+					<h3 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Content Unavailable</h3>
 				</div>
 			</div>
 			<div class="about-img pages">
-				<img src="img/b2b.jpeg" alt="B2B-Solutions-info-image">
+				<img src="img/b2b.jpeg" alt="B2B-Solutions-info-image" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
 			</div>
 		</div>
 	</section>
@@ -104,11 +105,11 @@
 		<div class="container text-white">
 			<div class="row">
 				<div class="col-lg-7 newsletter-text">
-					<h2>Subscribe to our Newsletter</h2>
-					<p>Sign up for our weekly industry updates, insider perspectives and in-depth market analysis.</p>
+					<h2 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Subscribe to our Newsletter</h2>
+					<p data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Sign up for our weekly industry updates, insider perspectives and in-depth market analysis.</p>
 				</div>
 				<div class="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
-					<form class="newsletter-form">
+					<form class="newsletter-form" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
 						<input type="text" placeholder="Enter your email">
 						<button>Get Started</button>
 					</form>
@@ -118,14 +119,13 @@
 	</section>
 	<!-- Newsletter section end -->
 
-
 	<!-- Footer section -->
 	<section id="contact" class="footer-section gray-section contact">
     <div class="container">
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1>Contact Us</h1>
+                <h1 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Contact Us</h1>
                 <p><br/></p>
             </div>
         </div>
@@ -161,15 +161,15 @@
                     Or follow us on social platform
                 </p>
                 <ul class="list-inline social-icon">
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
+                    <li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-twitter"></i></a>
                     </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
+                    <li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-facebook"></i></a>
                     </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
+                    <li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="800" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-linkedin"></i></a>
                     </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a>
+                    <li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-google-plus"></i></a>
                     </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a>
+                    <li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
@@ -183,10 +183,20 @@
     </div>
 </section>
 
+<!-- Footer section end -->
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+
+
+<!--====== Javascripts & Jquery ======-->
+
+	<script src="./node_modules/sal.js/dist/sal.js"></script>
+	<script>
+	  sal({
+	  		once: true,
+	  });
+	</script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
