@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>SNV Business</title>
+	<title>Solutions</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="SNV Business Solutions Home Page">
-	<meta name="keywords" content="Business Solutions, Business, Support, html">
+	<meta name="description" content="SNV Business HR Solutions Page">
+	<meta name="keywords" content="Business Solutions, Business, HR,HR Solutions,Solutions html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon"/>
@@ -13,6 +13,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Lato" rel="stylesheet">
 
 	<!-- Stylesheets -->
+	<link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/themify-icons.css"/>
@@ -28,10 +29,6 @@
 
 </head>
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
 
 	<!-- Header section -->
 	<header class="header-section clearfix">
@@ -45,21 +42,22 @@
 			<nav class="main-menu">
 				<ul class="menu-list">
 					<li><a href="index.html">Home</a></li>
-					<div class="dropdown">
-					  <button class="dropbtn">Services</button>
-					  <div class="dropdown-content">
-							<a href="hr-services.html">H R Services</a>
-					    <a href="real-estate.html">Real Estate</a>
-					    <a href="compliance.html">Compliance & Liaison</a>
-							<a href="FM.html">Facility Management</a>
-							<a href="payroll.html">PayRoll Processing</a>
-							<a href="B2B.html">B2B Solutions</a>
-							<a href="promotion.html">Promotional Services</a>
-							<a href="BFS.html">Business Financial Services</a>
-							<a href="franchise.html">Brand Franchise</a>
-					  </div>
-					</div>
-
+					<li id="dropdown-menu">
+					    <div class="dropdown">
+					      <button class="dropbtn">Services</button>
+					      <div class="dropdown-content">
+					    		<a href="hr-services.html">H R Services</a>
+					        <a href="real-estate.html">Real Estate</a>
+					        <a href="compliance.html">Compliance & Liaison</a>
+					    		<a href="FM.html">Facility Management</a>
+					    		<a href="payroll.html">PayRoll Processing</a>
+					    		<a href="B2B.html">B2B Solutions</a>
+					    		<a href="promotion.html">Promotional Services</a>
+					    		<a href="BFS.html">Business Financial Services</a>
+					    		<a href="franchise.html">Brand Franchise</a>
+					      </div>
+					    </div>
+					</li>
 					<li><a href="solutions.html">Solutions</a></li>
 					<li><a href="downloads.html">Downloads</a></li>
 					<li><a href="support.html">Support</a></li>
@@ -71,11 +69,11 @@
 	<!-- Header section end -->
 
 
-  <!-- Page info section -->
+	<!-- Page info section -->
 	<section class="page-info-section">
 		<div class="info">
-			<h2>Business <span>Solutions</span></h2>
-			<div class="site-beradcamb">
+			<h2 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Business <span>Solutions</span></h2>
+			<div class="site-beradcamb" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
 				<a href="index.html">Home</a>
 				<span><i class="fa fa-angle-right"></i>Business Solutions</span>
 			</div>
@@ -85,202 +83,324 @@
 
 
 	<!-- Go To Top Button -->
-	<a id="topbtn" title="Back to top" href="#">&#10148;</a>
+	<a id="topbtn" title="Back to top" href="#" data-sal-duration="1400" data-sal="slide-left" data-sal-delay="400" data-sal-easing="ease-out-bounce"><img src="img/top.png" alt="go to top button"></a>
 
 
-  <!-- Process section -->
-  <section class="process-section spad process-section1" id="process-section">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2>Get Started With Our Services</h2>
-        <p>Start using our services today.</p>
+	<!-- About section -->
+
+  <section id="about">
+    <div class="container-fluid">
+      <div class="section-header">
+        <h2 class="section-title" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">SNV Business Solutions</h3>
+        <span class="section-divider"></span>
+        <p class="section-description" data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+					We impart full-fledged services in Delhi-NCR Region in diversified fields,</br> mentioned below as per the Government Norms
+
+        </p>
       </div>
-      <div class="row spad1">
-        <div class="col-md-4 process">
-          <a href="hr-services.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/1.png" alt="#">
-            </figure>
-            <h4>HR Services</h4>
-            <p>HR Services include payroll, hiring, firing, and keeping up to date as per the govt. norms and rules. We assumes full duty for your company's HR administration </p>
-          </div></a>
-        </div>
-        <div class="col-md-4 process">
-          <a href="real-estate.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/2.png" alt="flaticon">
-            </figure>
-            <h4>Real Estate(AMC-3PS)</h4>
-            <p>Unlimited deals on Real Estate/Re-Locations Services in delhi-ncr areas. </p>
-          </div></a>
-        </div>
-        <div class="col-md-4 process">
-          <a href="compliance.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/3.png" alt="#">
-            </figure>
-            <h4>Compliance & Liaison</h4>
-            <p>Compliance coordinators make sure their companies' processes and employees adhere to rules established to meet ethical, legal and regulatory requirements. </p>
-          </div></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="process-section spad spad2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 process">
-          <a href="FM.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/4.png" alt="#">
-            </figure>
-            <h4>Facility Management</h4>
-            <p>Facilities managers essentially look after all of the services that helps a business or other organisation do its work. </p>
-          </div></a>
-        </div>
-        <div class="col-md-4 process">
-          <a href="payroll.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/5.png" alt="#">
-            </figure>
-            <h4>Payroll Processing</h4>
-            <p>Maintains payroll information by collecting, calculating, and entering data. </p>
-          </div></a>
-        </div>
-        <div class="col-md-4 process">
-          <a href="B2B.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/6.png" alt="#">
-            </figure>
-            <h4>B2B Solutions</h4>
-            <p>Promotions managers develop detailed plans for promotions in line with the marketing strategy. </p>
-          </div></a>
+  </section><!-- #about -->
+
+
+  <!--==========================
+    Product Advanced Featuress Section
+  ============================-->
+  <section id="advanced-features">
+
+		<!-- HR Services -->
+    <div class="features-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img class="advanced-feature-img-left" src="img/sol/hr-services.jpeg" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <div data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+              <h2>Human Resources</h2>
+							<h3 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">(3PS and Annual Basis Services)</h3>
+							<ul>
+								<li data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">A human resources department is a critical component of employee well-being in any business, no matter how small.</li>
+								<li data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">HR responsibilities include payroll, hiring, firing, and keeping up to date as per the government norms and rules.</li>
+								<li data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Professional Service Provider handle all the HR aspects and the business handling aspects of the company.</li>
+								<li data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">We provide both unskilled and skilled man-power as per the client work and requirement.</li>
+								<li data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">We conduct background checks and drug testing during the recruitment process</li>
+								<li data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">We offer assistance in all areas of human resources administration, including recruitment, payroll, regulatory compliance and risk management.</li>
+							</ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <section class="process-section spad spad2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 process">
-          <a href="promotion.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/7.png" alt="#">
-            </figure>
-            <h4>Promotional Services</h4>
-            <p>Facilities managers essentially look after all of the services that helps a business or other organisation do its work. </p>
-          </div></a>
-        </div>
-        <div class="col-md-4 process">
-          <a href="BFS.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/8.png" alt="#">
-            </figure>
-            <h4>Business Financial Services</h4>
-            <p>Maintains payroll information by collecting, calculating, and entering data. </p>
-          </div></a>
-        </div>
-        <div class="col-md-4 process">
-          <a href="franchise.html"><div class="process-step">
-            <figure class="process-icon">
-              <img src="img/process-icons/9.png" alt="#">
-            </figure>
-            <h4>Brand Franchise</h4>
-            <p>Promotions managers develop detailed plans for promotions in line with the marketing strategy. </p>
-          </div></a>
+
+		<!-- Real Estate -->
+    <div class="features-row  section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img class="advanced-feature-img-right wow fadeInRight" src="img/sol/real-estate.jpg" data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <div>
+              <h2  data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Real Estate</h2>
+							<h3 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">(3PS and Annual Basis Services)</h3>
+							<ul>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Unlimited deals on Real Estate/Re-Locations Services in delhi-ncr areas.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Leasing services (Warehouse/ Fulfillment space, Office Space, Workshop Space, Industrial Space, Commercial Space, Business Center)</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Buy/Sell Services (Industrial / Commercial / Residential / Warehouse / Pre-Rental / Investment Properties).</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Real Estate legal advising/guidance (Fresh/ Renewal of lease).</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Document Ownership Verification.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Registration of the Lease deed/ sale deed through the notorised/ as per the government norms.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Current market value/ Taxation/ and legal guidance as per the government norms.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">After the finalisation of the premises, process and registration of lease deed/sale deed on terms and conditions of both (Tenant/ Landlord).</li>
+							</ul>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Process section end -->
+	</div>
 
+		<!-- Compliance & Liaison -->
+    <div class="features-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img class="advanced-feature-img-left" src="img/sol/compliance.jpg" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <div data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+              <h2 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Compliance & Liaison</h2>
+							<h3 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">(3PS and Annual Basis Services)</h3>
+							<ul>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Compliance coordinators make sure their companies' processes and employees adhere to rules established to meet ethical, legal and regulatory requirements. These coordinators are needed in all industries and across a range of disciplines, such as in finance and information technology security.</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Maintain thorough knowledge of the business, as well as an understanding of how that impacts the other entities of contact. Monitor, coordinate, and communicate strategic objectives of the business</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Collect, analyse, and utilize data and feedback to identify opportunities to improve the relationship between the business and the other entity.</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">The compliance coordinator controls records relating to reports of noncompliance and investigation requests and results. Evaluating those records and the compliance program's documented policies and procedures is another key aspect of the position.</li>
+							</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<!-- Newsletter section -->
-	<section class="newsletter-section gradient-bg">
-		<div class="container text-white">
-			<div class="row">
-				<div class="col-lg-7 newsletter-text">
-					<h2>Subscribe to our Newsletter</h2>
-					<p>Sign up for our weekly industry updates, insider perspectives and in-depth market analysis.</p>
-				</div>
-				<div class="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
-					<form class="newsletter-form">
-						<input type="text" placeholder="Enter your email">
-						<button>Get Started</button>
-					</form>
+   <!-- Facility Management -->
+    <div class="features-row section-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img class="advanced-feature-img-right" src="img/sol/fm.jpg" data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            <div data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+							<h2 data-sal-duration="1400" data-sal="slide-roght" data-sal-delay="300" data-sal-easing="ease-out-bounce">Facility Management</h2>
+							<h3 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">(3PS and Annual Basis Services)<br><br></h3>
+							<p data-sal-duration="1400" data-sal="slide-roght" data-sal-delay="300" data-sal-easing="ease-out-bounce">Facilities managers essentially look after all of the services that helps a business or other organisation do its work. Responsibilities can include :</p>
+							<ul>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Overseeing and Agreeing contracts and providers for services including security, parking, cleaning, catering, technology and so on.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Supervising multi-disciplinary teams of staff including cleaning, maintenance, grounds and security.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Ensuring that basic facilities, such as water and heating, are well-maintained.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Managing budgets and ensuring cost-effectiveness.</li>
+								<li data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Ensuring that facilities meet government regulations and environmental, health and security standards.</li>
+							</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+		<!-- PayRoll Processing -->
+		<div class="features-row">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<img class="advanced-feature-img-left" src="img/sol/payroll.jpeg" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+						<div data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+							<h2>PayRoll Processing</h2>
+							<h3 data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">(3PS and Annual Basis Services)</h3>
+							<ul>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Maintains payroll information by collecting, calculating, and entering data.
+						</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Updates payroll records by entering changes in exemptions, insurance coverage, savings deductions, and job title and department/division transfers.
+						</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Prepares reports by compiling summaries of earnings, taxes, deductions, leave, disability, and nontaxable wages.
+						</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Determines payroll liabilities by calculating employee federal and state income and social security taxes and employer's social security, unemployment, and workers compensation payments.
+						</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Resolves payroll discrepancies by collecting and analyzing information.
+						</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Provides payroll information by answering questions and requests.
+						</li>
+								<li data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">Maintains payroll operations by following policies and procedures.
+						</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- Newsletter section end -->
 
-	<!-- Footer section -->
-	<section id="contact" class="footer-section gray-section contact">
+  </section>
+
+	<!-- #advanced-features -->
+
+
+  <!--==========================
+    More Features Section
+  ============================-->
+  <section id="more-features" class="section-bg">
     <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Contact Us</h1>
-                <p><br/></p>
+
+      <div class="section-header">
+        <h3 class="section-title" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">Other Services</h3>
+        <span class="section-divider"></span>
+      </div>
+
+      <div class="row">
+
+				<div class="col-lg-6" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+					<div class="box">
+						<div class="icon">
+							<figure class="process-icon">
+								<img src="img/process-icons/6.png" alt="#">
+							</figure>
+						</div>
+						<h4 class="title"><a href="">B2B Solutions</a></h4>
+						<p class="description">Promotions managers develop detailed plans for promotions in line with the marketing strategy. </p>
+					</div>
+				</div>
+
+        <div class="col-lg-6" data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+          <div class="box">
+            <div class="icon">
+							<figure class="process-icon">
+								<img src="img/process-icons/7.png" alt="#">
+							</figure>
             </div>
+            <h4 class="title"><a href="">Promotional Services</a></h4>
+            <p class="description">Facilities managers essentially look after all of the services that helps a business or other organisation do its work. </p>
+          </div>
         </div>
-        <div class="row m-b-lg justify-content-center">
-            <div class="col-lg-3 text-center">
-							<img src="img/logo.svg" class="mb-4 ftr logo-img" alt="">
-							<p>Business Solutions Company <br/></p>
+
+        <div class="col-lg-6" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+          <div class="box">
+            <div class="icon">
+							<figure class="process-icon">
+								<img src="img/process-icons/8.png" alt="#">
+							</figure>
             </div>
-            <div class="col-lg-3 text-center">
-                <address>
-                    <strong><span class="navy">SNV Business Solutions</span></strong><br/>
-                    S-2|215 Old Mahavir Nagar<br/>
-                    Tilak Nagar, New Delhi - 110018<br/>
-                    Phone : 9810617787, 9411976777, 9818106665
-                </address>
-            </div>
-            <div class="col-lg-3 text-center">
-                <p class="text-color"><strong><span class="navy">About SNV</span></strong><br/>
-                    SNV Business Solutions provide diverse services to a firm from Consultancy to Management. These Services are exclusively for Delhi and NCR region.
-                </p>
-            </div>
-						<div class="col-lg-3 text-center">
-							<strong><span class="navy">Quick Links</span></strong><br/>
-							<a href="downloads.html">Downloads</a><br>
-							<a href="support.html">Support</a><br>
-							<a href="https://www.dailyfx.com/forex-rates" target="_blank">Forex Rates</a><br>
-            </div>
+            <h4 class="title"><a href="">Business Financial Services</a></h4>
+            <p class="description">Maintains payroll information by collecting, calculating, and entering data. </p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center cont">
-                <a href="support.html" class="btn-primary">Send us mail</a>
-                <p class="m-t-sm con">
-                    Or follow us on social platform
-                </p>
-                <ul class="list-inline social-icon">
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                </ul>
+
+        <div class="col-lg-6" data-sal-duration="1400" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+          <div class="box">
+            <div class="icon">
+							<figure class="process-icon">
+								<img src="img/process-icons/9.png" alt="#">
+							</figure>
             </div>
+            <h4 class="title"><a href="">Brand Franchise</a></h4>
+            <p class="description">Promotions managers develop detailed plans for promotions in line with the marketing strategy. </p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 text-center m-t-lg m-b-lg">
-                <p><strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved |
-									 SNV Business | <a href="">Terms of Use</a> | <a href="">DPA</a> | <a href="">Privacy Policy </a></strong><br/></p>
-            </div>
-        </div>
+
+      </div>
     </div>
+  </section><!-- #more-features -->
+
+	<!-- About section End -->
+
+
+
+
+<!-- Newsletter section -->
+<section class="newsletter-section gradient-bg">
+	<div class="container text-white">
+		<div class="row">
+			<div class="col-lg-7 newsletter-text">
+				<h2 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Subscribe to our Newsletter</h2>
+				<p data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Sign up for our weekly industry updates, insider perspectives and in-depth market analysis.</p>
+			</div>
+			<div class="col-lg-5 col-md-8 offset-lg-0 offset-md-2">
+				<form class="newsletter-form" data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+					<input type="text" placeholder="Enter your email">
+					<button>Get Started</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Newsletter section end -->
+
+<!-- Footer section -->
+<section id="contact" class="footer-section gray-section contact">
+	<div class="container">
+			<div class="row m-b-lg">
+					<div class="col-lg-12 text-center">
+							<div class="navy-line"></div>
+							<h1 data-sal-duration="1400" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">Contact Us</h1>
+							<p><br/></p>
+					</div>
+			</div>
+			<div class="row m-b-lg justify-content-center">
+					<div class="col-lg-3 text-center">
+						<img src="img/logo.svg" class="mb-4 ftr logo-img" alt="">
+						<p>Business Solutions Company <br/></p>
+					</div>
+					<div class="col-lg-3 text-center">
+							<address>
+									<strong><span class="navy">SNV Business Solutions</span></strong><br/>
+									S-2|215 Old Mahavir Nagar<br/>
+									Tilak Nagar, New Delhi - 110018<br/>
+									Phone : 9810617787, 9411976777, 9818106665
+							</address>
+					</div>
+					<div class="col-lg-3 text-center">
+							<p class="text-color"><strong><span class="navy">About SNV</span></strong><br/>
+									SNV Business Solutions provide diverse services to a firm from Consultancy to Management. These Services are exclusively for Delhi and NCR region.
+							</p>
+					</div>
+					<div class="col-lg-3 text-center">
+						<strong><span class="navy">Quick Links</span></strong><br/>
+						<a href="downloads.html">Downloads</a><br>
+						<a href="support.html">Support</a><br>
+						<a href="https://www.dailyfx.com/forex-rates" target="_blank">Forex Rates</a><br>
+					</div>
+			</div>
+			<div class="row">
+					<div class="col-lg-12 text-center cont">
+							<a href="support.html" class="btn-primary">Send us mail</a>
+							<p class="m-t-sm con">
+									Or follow us on social platform
+							</p>
+							<ul class="list-inline social-icon">
+									<li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-twitter"></i></a>
+									</li>
+									<li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="800" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-linkedin"></i></a>
+									</li>
+									<li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-google-plus"></i></a>
+									</li>
+									<li class="list-inline-item" data-sal-duration="1400" data-sal="slide-up" data-sal-delay="600" data-sal-easing="ease-out-bounce"><a href="#"><i class="fa fa-instagram"></i></a>
+									</li>
+							</ul>
+					</div>
+			</div>
+			<div class="row">
+					<div class="col-lg-12 text-center m-t-lg m-b-lg">
+							<p><strong>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved |
+								 SNV Business | <a href="">Terms of Use</a> | <a href="">DPA</a> | <a href="">Privacy Policy </a></strong><br/></p>
+					</div>
+			</div>
+	</div>
 </section>
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/main.js"></script>
+<!-- Footer section end -->
+
+
+
+<!--====== Javascripts & Jquery ======-->
+
+<script src="./node_modules/sal.js/dist/sal.js"></script>
+<script>
+	sal({
+			once: true,
+	});
+</script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
