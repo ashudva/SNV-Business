@@ -1908,7 +1908,7 @@ a :hover {
 		background-position: right 23% top;
 	}
 	.about-img {
-		left: 0px;
+		left: 120px;
 		width: 480px;
 	}
 	.member {
@@ -1964,8 +1964,8 @@ a :hover {
 		background-size: contain;
 	}
 	.about-img {
-		position: relative;
-		display: block;
+		position: absolute;
+		display: none;
 		left: 0;
 		width: auto;
 		margin-top: 50px;
